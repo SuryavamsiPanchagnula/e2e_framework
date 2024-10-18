@@ -1,0 +1,48 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class login {
+	
+	WebDriver driver;
+	
+	@FindBy(id ="loginusername") WebElement usernametext;
+	@FindBy(id ="loginpassword") WebElement passwordtext;
+	@FindBy(xpath ="//button[@onclick='logIn()']") WebElement loginbutton;
+	@FindBy(xpath="//button[@class='btn btn-secondary']") WebElement closebutton;
+	
+	public login(WebDriver driver){
+		
+		this.driver=driver;
+		PageFactory.initElements(driver,this);
+	}
+	
+	public void clicklogin() {
+		
+		loginbutton.click();
+	}
+	
+	public void enterusername(String username) {
+		
+		usernametext.sendKeys(username);
+	}
+	
+	public void enterpassword(String password) {
+		
+		passwordtext.sendKeys(password);
+	}
+	
+	public void loginsubmit() {
+		
+		loginbutton.click();
+	}
+	
+	public void closepopup() {
+		
+		closebutton.click();
+	}
+
+}

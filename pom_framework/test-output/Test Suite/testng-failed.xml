@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <listeners>
+    <listener class-name="reports.reports"/>
+  </listeners>
+  <test thread-count="5" name="Login Tests(failed)">
+    <classes>
+      <class name="testcases.signuptest">
+        <methods>
+          <include name="tc8_onlypassword"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.signuptest -->
+      <class name="testcases.logintest">
+        <methods>
+          <include name="close"/>
+          <include name="tc_10_cancellogin"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.logintest -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

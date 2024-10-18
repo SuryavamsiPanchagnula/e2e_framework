@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Dell\POM_framework\pom_framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 2 failed,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods failed suite-Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods failed suite-Test_Suite"> (show)</a> <!-- show-methods failed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc8_onlypassword">tc8_onlypassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.logintest" class="method navigator-link" hash-for-method="tc_10_cancellogin">tc_10_cancellogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods passed suite-Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods passed suite-Test_Suite"> (show)</a> <!-- show-methods passed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc10_closepopup">tc10_closepopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc11_numbervalidation">tc11_numbervalidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc12_specialcharector_validation">tc12_specialcharector_validation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.logintest" class="method navigator-link" hash-for-method="tc1_login_username_label">tc1_login_username_label</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc1_usernamelabel">tc1_usernamelabel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.logintest" class="method navigator-link" hash-for-method="tc2_login_password_label">tc2_login_password_label</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc2_passwordlabel">tc2_passwordlabel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.logintest" class="method navigator-link" hash-for-method="tc3_login_is_usernamefield_present">tc3_login_is_usernamefield_present</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc3_usernametextfield_display">tc3_usernametextfield_display</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.logintest" class="method navigator-link" hash-for-method="tc4_login_is_passwordfield_present">tc4_login_is_passwordfield_present</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc4_passwordtextfield_display">tc4_passwordtextfield_display</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.logintest" class="method navigator-link" hash-for-method="tc5_login">tc5_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc5_signup">tc5_signup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc6_existingsignup">tc6_existingsignup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.logintest" class="method navigator-link" hash-for-method="tc6_invalidusername">tc6_invalidusername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.logintest" class="method navigator-link" hash-for-method="tc7_invalidpassword">tc7_invalidpassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc7_onlyusername">tc7_onlyusername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.logintest" class="method navigator-link" hash-for-method="tc8_onlyusernamesubmit">tc8_onlyusernamesubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.signuptest" class="method navigator-link" hash-for-method="tc9_empty_submit">tc9_empty_submit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.logintest" class="method navigator-link" hash-for-method="tc_11_passwordencryption">tc_11_passwordencryption</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="testcases.logintest" class="method navigator-link" hash-for-method="tc_9_onlypasswordsubmit">tc_9_onlypasswordsubmit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Suite" class="panel Test_Suite">
+          <div class="suite-Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.signuptest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc8_onlypassword">
+                  </a> <!-- tc8_onlypassword -->
+                  <span class="method-name">tc8_onlypassword</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (030a93e9f7441079913116f67c8466a9)] -&gt; id: sign-password] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65482}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65482/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 030a93e9f7441079913116f67c8466a9
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.signup.create_password(signup.java:36)
+	at testcases.signuptest.tc8_onlypassword(signuptest.java:178)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-failed -->
+          <div class="suite-Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.logintest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_10_cancellogin">
+                  </a> <!-- tc_10_cancellogin -->
+                  <span class="method-name">tc_10_cancellogin</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (25a1f97ec07cf709b194a14a59434df3)] -&gt; xpath: //div//h5[@id=&apos;logInModalLabel&apos;]] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49348}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49348/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 25a1f97ec07cf709b194a14a59434df3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at testcases.logintest.tc_10_cancellogin(logintest.java:151)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-failed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.signuptest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc10_closepopup">
+                  </a> <!-- tc10_closepopup -->
+                  <span class="method-name">tc10_closepopup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc11_numbervalidation">
+                  </a> <!-- tc11_numbervalidation -->
+                  <span class="method-name">tc11_numbervalidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc12_specialcharector_validation">
+                  </a> <!-- tc12_specialcharector_validation -->
+                  <span class="method-name">tc12_specialcharector_validation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc1_usernamelabel">
+                  </a> <!-- tc1_usernamelabel -->
+                  <span class="method-name">tc1_usernamelabel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc2_passwordlabel">
+                  </a> <!-- tc2_passwordlabel -->
+                  <span class="method-name">tc2_passwordlabel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc3_usernametextfield_display">
+                  </a> <!-- tc3_usernametextfield_display -->
+                  <span class="method-name">tc3_usernametextfield_display</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc4_passwordtextfield_display">
+                  </a> <!-- tc4_passwordtextfield_display -->
+                  <span class="method-name">tc4_passwordtextfield_display</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc5_signup">
+                  </a> <!-- tc5_signup -->
+                  <span class="method-name">tc5_signup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc6_existingsignup">
+                  </a> <!-- tc6_existingsignup -->
+                  <span class="method-name">tc6_existingsignup</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc7_onlyusername">
+                  </a> <!-- tc7_onlyusername -->
+                  <span class="method-name">tc7_onlyusername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc9_empty_submit">
+                  </a> <!-- tc9_empty_submit -->
+                  <span class="method-name">tc9_empty_submit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.logintest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc1_login_username_label">
+                  </a> <!-- tc1_login_username_label -->
+                  <span class="method-name">tc1_login_username_label</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc2_login_password_label">
+                  </a> <!-- tc2_login_password_label -->
+                  <span class="method-name">tc2_login_password_label</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc3_login_is_usernamefield_present">
+                  </a> <!-- tc3_login_is_usernamefield_present -->
+                  <span class="method-name">tc3_login_is_usernamefield_present</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc4_login_is_passwordfield_present">
+                  </a> <!-- tc4_login_is_passwordfield_present -->
+                  <span class="method-name">tc4_login_is_passwordfield_present</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc5_login">
+                  </a> <!-- tc5_login -->
+                  <span class="method-name">tc5_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc6_invalidusername">
+                  </a> <!-- tc6_invalidusername -->
+                  <span class="method-name">tc6_invalidusername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc7_invalidpassword">
+                  </a> <!-- tc7_invalidpassword -->
+                  <span class="method-name">tc7_invalidpassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc8_onlyusernamesubmit">
+                  </a> <!-- tc8_onlyusernamesubmit -->
+                  <span class="method-name">tc8_onlyusernamesubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_11_passwordencryption">
+                  </a> <!-- tc_11_passwordencryption -->
+                  <span class="method-name">tc_11_passwordencryption</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc_9_onlypasswordsubmit">
+                  </a> <!-- tc_9_onlypasswordsubmit -->
+                  <span class="method-name">tc_9_onlypasswordsubmit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+        </div> <!-- panel Test_Suite -->
+        <div panel-name="test-xml-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Dell\POM_framework\pom_framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Test Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.signuptest&quot;/&gt;
+      &lt;class name=&quot;testcases.logintest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Tests --&gt;
+&lt;/suite&gt; &lt;!-- Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Tests (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Suite');
+function tableData_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc_10_cancellogin')
+data.setCell(0, 2, 'testcases.logintest')
+data.setCell(0, 3, 46019);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc8_onlypassword')
+data.setCell(1, 2, 'testcases.signuptest')
+data.setCell(1, 3, 40516);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc5_login')
+data.setCell(2, 2, 'testcases.logintest')
+data.setCell(2, 3, 15910);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc7_invalidpassword')
+data.setCell(3, 2, 'testcases.logintest')
+data.setCell(3, 3, 11969);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc6_invalidusername')
+data.setCell(4, 2, 'testcases.logintest')
+data.setCell(4, 3, 11953);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc8_onlyusernamesubmit')
+data.setCell(5, 2, 'testcases.logintest')
+data.setCell(5, 3, 5889);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc_9_onlypasswordsubmit')
+data.setCell(6, 2, 'testcases.logintest')
+data.setCell(6, 3, 5862);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc5_signup')
+data.setCell(7, 2, 'testcases.signuptest')
+data.setCell(7, 3, 1908);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc11_numbervalidation')
+data.setCell(8, 2, 'testcases.signuptest')
+data.setCell(8, 3, 1903);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc12_specialcharector_validation')
+data.setCell(9, 2, 'testcases.signuptest')
+data.setCell(9, 3, 1891);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc6_existingsignup')
+data.setCell(10, 2, 'testcases.signuptest')
+data.setCell(10, 3, 1890);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tc7_onlyusername')
+data.setCell(11, 2, 'testcases.signuptest')
+data.setCell(11, 3, 782);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tc_11_passwordencryption')
+data.setCell(12, 2, 'testcases.logintest')
+data.setCell(12, 3, 725);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc10_closepopup')
+data.setCell(13, 2, 'testcases.signuptest')
+data.setCell(13, 3, 712);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tc9_empty_submit')
+data.setCell(14, 2, 'testcases.signuptest')
+data.setCell(14, 3, 675);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'tc2_login_password_label')
+data.setCell(15, 2, 'testcases.logintest')
+data.setCell(15, 3, 666);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tc1_login_username_label')
+data.setCell(16, 2, 'testcases.logintest')
+data.setCell(16, 3, 666);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tc4_login_is_passwordfield_present')
+data.setCell(17, 2, 'testcases.logintest')
+data.setCell(17, 3, 658);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tc3_login_is_usernamefield_present')
+data.setCell(18, 2, 'testcases.logintest')
+data.setCell(18, 3, 656);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'tc2_passwordlabel')
+data.setCell(19, 2, 'testcases.signuptest')
+data.setCell(19, 3, 648);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'tc3_usernametextfield_display')
+data.setCell(20, 2, 'testcases.signuptest')
+data.setCell(20, 3, 644);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'tc1_usernamelabel')
+data.setCell(21, 2, 'testcases.signuptest')
+data.setCell(21, 3, 638);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'tc4_passwordtextfield_display')
+data.setCell(22, 2, 'testcases.signuptest')
+data.setCell(22, 3, 637);
+window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Test_Suite">
+              </div> <!-- times-div-Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.signuptest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc10_closepopup</span>
+                <span class="method-start">43374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">44089 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">44338 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc11_numbervalidation</span>
+                <span class="method-start">86840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">88745 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">88978 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc12_specialcharector_validation</span>
+                <span class="method-start">131513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">133405 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">133653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc1_usernamelabel</span>
+                <span class="method-start">176057 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">176696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">176934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc2_passwordlabel</span>
+                <span class="method-start">219171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">219820 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">220066 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc3_usernametextfield_display</span>
+                <span class="method-start">262498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">263143 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">263388 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc4_passwordtextfield_display</span>
+                <span class="method-start">306075 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">306713 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">306945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc5_signup</span>
+                <span class="method-start">349498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">351409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">351650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc6_existingsignup</span>
+                <span class="method-start">394031 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">395922 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">396156 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc7_onlyusername</span>
+                <span class="method-start">438821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">439604 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">439837 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc8_onlypassword</span>
+                <span class="method-start">482297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">522817 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">523073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc9_empty_submit</span>
+                <span class="method-start">565879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">566556 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.logintest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">566800 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc1_login_username_label</span>
+                <span class="method-start">609330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">609997 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">610234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc2_login_password_label</span>
+                <span class="method-start">652481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">653148 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">653401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc3_login_is_usernamefield_present</span>
+                <span class="method-start">696299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">696955 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">697187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc4_login_is_passwordfield_present</span>
+                <span class="method-start">739507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">740165 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">740379 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc5_login</span>
+                <span class="method-start">782709 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">798619 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">798856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc6_invalidusername</span>
+                <span class="method-start">841297 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">853252 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">853563 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc7_invalidpassword</span>
+                <span class="method-start">895265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">907235 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">907478 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc8_onlyusernamesubmit</span>
+                <span class="method-start">949868 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">955757 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">955993 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tc_10_cancellogin</span>
+                <span class="method-start">998501 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">1044521 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1044831 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_11_passwordencryption</span>
+                <span class="method-start">1087206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">1087932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">1088175 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc_9_onlypasswordsubmit</span>
+                <span class="method-start">1131998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">close</span>
+                <span class="method-start">1137862 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

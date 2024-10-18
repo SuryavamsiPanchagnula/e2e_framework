@@ -1,0 +1,6 @@
+package actions;
+
+import pages.login;
+public class login extends login{
+
+}

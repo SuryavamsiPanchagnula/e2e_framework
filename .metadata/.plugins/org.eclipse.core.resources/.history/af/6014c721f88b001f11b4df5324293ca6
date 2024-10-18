@@ -1,0 +1,42 @@
+package pages;
+
+import java.time.Duration;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+public class base_page {
+	
+	 protected WebDriver driver;
+	 protected WebDriverWait wait;
+
+	    public base_page(WebDriver driver) {
+	        this.driver = driver;
+	        this.wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+	        PageFactory.initElements(driver, this);
+	    }
+	    public void handleAlertIfPresent() {
+			try {
+	            WebDriverWait alertWait = new WebDriverWait(driver, Duration.ofSeconds(40));
+	            Alert alert = alertWait.until(ExpectedConditions.alertIsPresent());
+	            System.out.println("Alert Text: " + alert.getText());  
+	            alert.accept();  
+	        } catch (Exception e) {
+	            System.out.println("No alert present");
+	        }
+		}
+		
+		public void VerifyAfterAlert() {
+			
+			handleAlertIfPresent();
+			WebElement popup = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div//h5[@id='logInModalLabel']")));
+			Assert.assertTrue(popup.isDisplayed(),"not displayed");
+			
+		}
+}

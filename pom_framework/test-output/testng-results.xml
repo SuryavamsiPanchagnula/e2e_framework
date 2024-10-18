@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="23" passed="21" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-18T16:20:33 IST" name="Test Suite" finished-at="2024-10-18T16:39:32 IST" duration-ms="1138407">
+    <groups>
+    </groups>
+    <test started-at="2024-10-18T16:20:33 IST" name="Login Tests" finished-at="2024-10-18T16:39:32 IST" duration-ms="1138407">
+      <class name="testcases.signuptest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:20:33 IST" name="setup" finished-at="2024-10-18T16:21:17 IST" duration-ms="43364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc10_closepopup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:21:17 IST" name="tc10_closepopup" finished-at="2024-10-18T16:21:17 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10_closepopup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:21:17 IST" name="close" finished-at="2024-10-18T16:21:18 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:21:18 IST" name="setup" finished-at="2024-10-18T16:22:00 IST" duration-ms="42411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc11_numbervalidation()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:22:00 IST" name="tc11_numbervalidation" finished-at="2024-10-18T16:22:02 IST" duration-ms="1903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11_numbervalidation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:22:02 IST" name="close" finished-at="2024-10-18T16:22:02 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:22:02 IST" name="setup" finished-at="2024-10-18T16:22:44 IST" duration-ms="42313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc12_specialcharector_validation()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:22:44 IST" name="tc12_specialcharector_validation" finished-at="2024-10-18T16:22:46 IST" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12_specialcharector_validation -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:22:46 IST" name="close" finished-at="2024-10-18T16:22:47 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:22:47 IST" name="setup" finished-at="2024-10-18T16:23:29 IST" duration-ms="41967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc1_usernamelabel()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:23:29 IST" name="tc1_usernamelabel" finished-at="2024-10-18T16:23:29 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_usernamelabel -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:23:29 IST" name="close" finished-at="2024-10-18T16:23:29 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:23:29 IST" name="setup" finished-at="2024-10-18T16:24:12 IST" duration-ms="42439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc2_passwordlabel()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:24:12 IST" name="tc2_passwordlabel" finished-at="2024-10-18T16:24:13 IST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_passwordlabel -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:24:13 IST" name="close" finished-at="2024-10-18T16:24:13 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:24:13 IST" name="setup" finished-at="2024-10-18T16:24:55 IST" duration-ms="42408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc3_usernametextfield_display()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:24:55 IST" name="tc3_usernametextfield_display" finished-at="2024-10-18T16:24:56 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_usernametextfield_display -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:24:56 IST" name="close" finished-at="2024-10-18T16:24:56 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:24:56 IST" name="setup" finished-at="2024-10-18T16:25:39 IST" duration-ms="43315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc4_passwordtextfield_display()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:25:39 IST" name="tc4_passwordtextfield_display" finished-at="2024-10-18T16:25:40 IST" duration-ms="620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4_passwordtextfield_display -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:25:40 IST" name="close" finished-at="2024-10-18T16:25:40 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:25:40 IST" name="setup" finished-at="2024-10-18T16:26:22 IST" duration-ms="42277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc5_signup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:26:22 IST" name="tc5_signup" finished-at="2024-10-18T16:26:24 IST" duration-ms="1926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5_signup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:26:24 IST" name="close" finished-at="2024-10-18T16:26:25 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:26:25 IST" name="setup" finished-at="2024-10-18T16:27:08 IST" duration-ms="42993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc6_existingsignup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:27:08 IST" name="tc6_existingsignup" finished-at="2024-10-18T16:27:09 IST" duration-ms="1894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6_existingsignup -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:27:09 IST" name="close" finished-at="2024-10-18T16:27:10 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:27:10 IST" name="setup" finished-at="2024-10-18T16:27:52 IST" duration-ms="42387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc7_onlyusername()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:27:52 IST" name="tc7_onlyusername" finished-at="2024-10-18T16:27:53 IST" duration-ms="777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7_onlyusername -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:27:53 IST" name="close" finished-at="2024-10-18T16:27:53 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:27:53 IST" name="setup" finished-at="2024-10-18T16:28:36 IST" duration-ms="43074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc8_onlypassword()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:28:36 IST" name="tc8_onlypassword" finished-at="2024-10-18T16:29:17 IST" duration-ms="40468" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (6da10f6c2ceebc541e7d2c92a727c028)] -> id: sign-password] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64711}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64711/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6da10f6c2ceebc541e7d2c92a727c028]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (6da10f6c2ceebc541e7d2c92a727c028)] -> id: sign-password] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64711}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64711/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6da10f6c2ceebc541e7d2c92a727c028
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.signup.create_password(signup.java:36)
+at testcases.signuptest.tc8_onlypassword(signuptest.java:178)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc8_onlypassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:29:17 IST" name="close" finished-at="2024-10-18T16:29:17 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:29:17 IST" name="setup" finished-at="2024-10-18T16:29:59 IST" duration-ms="42603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc9_empty_submit()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:29:59 IST" name="tc9_empty_submit" finished-at="2024-10-18T16:30:00 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc9_empty_submit -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.signuptest@6aba2b86]" started-at="2024-10-18T16:30:00 IST" name="close" finished-at="2024-10-18T16:30:00 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.signuptest -->
+      <class name="testcases.logintest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:30:00 IST" name="setup" finished-at="2024-10-18T16:30:43 IST" duration-ms="42263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc1_login_username_label()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:30:43 IST" name="tc1_login_username_label" finished-at="2024-10-18T16:30:43 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_login_username_label -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:30:43 IST" name="close" finished-at="2024-10-18T16:30:44 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:30:44 IST" name="setup" finished-at="2024-10-18T16:31:26 IST" duration-ms="42750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc2_login_password_label()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:31:26 IST" name="tc2_login_password_label" finished-at="2024-10-18T16:31:27 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_login_password_label -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:31:27 IST" name="close" finished-at="2024-10-18T16:31:27 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:31:27 IST" name="setup" finished-at="2024-10-18T16:32:10 IST" duration-ms="43066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc3_login_is_usernamefield_present()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:32:10 IST" name="tc3_login_is_usernamefield_present" finished-at="2024-10-18T16:32:11 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_login_is_usernamefield_present -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:32:11 IST" name="close" finished-at="2024-10-18T16:32:11 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:32:11 IST" name="setup" finished-at="2024-10-18T16:32:53 IST" duration-ms="42231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc4_login_is_passwordfield_present()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:32:53 IST" name="tc4_login_is_passwordfield_present" finished-at="2024-10-18T16:32:54 IST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4_login_is_passwordfield_present -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:32:54 IST" name="close" finished-at="2024-10-18T16:32:54 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:32:54 IST" name="setup" finished-at="2024-10-18T16:33:37 IST" duration-ms="42364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc5_login()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:33:37 IST" name="tc5_login" finished-at="2024-10-18T16:33:53 IST" duration-ms="15913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5_login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:33:53 IST" name="close" finished-at="2024-10-18T16:33:53 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:33:53 IST" name="setup" finished-at="2024-10-18T16:34:35 IST" duration-ms="42396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc6_invalidusername()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:34:35 IST" name="tc6_invalidusername" finished-at="2024-10-18T16:34:47 IST" duration-ms="11938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6_invalidusername -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:34:47 IST" name="close" finished-at="2024-10-18T16:34:47 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:34:47 IST" name="setup" finished-at="2024-10-18T16:35:30 IST" duration-ms="43125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc7_invalidpassword()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:35:30 IST" name="tc7_invalidpassword" finished-at="2024-10-18T16:35:42 IST" duration-ms="11937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7_invalidpassword -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:35:42 IST" name="close" finished-at="2024-10-18T16:35:43 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:35:43 IST" name="setup" finished-at="2024-10-18T16:36:25 IST" duration-ms="42400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc8_onlyusernamesubmit()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:36:25 IST" name="tc8_onlyusernamesubmit" finished-at="2024-10-18T16:36:31 IST" duration-ms="5851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc8_onlyusernamesubmit -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:36:31 IST" name="close" finished-at="2024-10-18T16:36:31 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:36:31 IST" name="setup" finished-at="2024-10-18T16:37:14 IST" duration-ms="42365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_10_cancellogin()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:37:14 IST" name="tc_10_cancellogin" finished-at="2024-10-18T16:38:00 IST" duration-ms="45998" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (5f6284cd9277fa77bc832d7c0f5df3b0)] -> xpath: //div//h5[@id='logInModalLabel']] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64956/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f6284cd9277fa77bc832d7c0f5df3b0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on windows (5f6284cd9277fa77bc832d7c0f5df3b0)] -> xpath: //div//h5[@id='logInModalLabel']] (tried for 40 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64956}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64956/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5f6284cd9277fa77bc832d7c0f5df3b0
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at testcases.logintest.tc_10_cancellogin(logintest.java:151)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_10_cancellogin -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:38:00 IST" name="close" finished-at="2024-10-18T16:38:00 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:38:00 IST" name="setup" finished-at="2024-10-18T16:38:42 IST" duration-ms="42497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_11_passwordencryption()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:38:42 IST" name="tc_11_passwordencryption" finished-at="2024-10-18T16:38:43 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_11_passwordencryption -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:38:43 IST" name="close" finished-at="2024-10-18T16:38:43 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:38:43 IST" name="setup" finished-at="2024-10-18T16:39:26 IST" duration-ms="42276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc_9_onlypasswordsubmit()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:39:26 IST" name="tc_9_onlypasswordsubmit" finished-at="2024-10-18T16:39:31 IST" duration-ms="5891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_9_onlypasswordsubmit -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcases.logintest@399f45b1]" started-at="2024-10-18T16:39:31 IST" name="close" finished-at="2024-10-18T16:39:32 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcases.logintest -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Test Suite -->
+</testng-results>
