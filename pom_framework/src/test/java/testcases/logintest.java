@@ -28,7 +28,7 @@ public class logintest{
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://www.demoblaze.com/");
-        
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         wait= new WebDriverWait(driver,Duration.ofSeconds(40));
 
         login = new login(driver);
